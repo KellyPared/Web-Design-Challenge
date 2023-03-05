@@ -1,11 +1,15 @@
+body {
+  background-color: lightblue;
+}
+
 #imageNav-area {
     width: 100%;
   
     /* Box-model */
-    padding: 30px 30px 43px;
+    padding: 20px 20px 33px;
   
     /* Positioning */
-    margin-top: 32px;
+    margin-top: 39px;
   
     /* Visual */
     background-color: #fff;
@@ -19,7 +23,7 @@
     /* Typography */
     font-size: 25px;
     font-weight: bold;
-    color: #4aaaa5;
+    color: #1e0bf4;
   }
   
   .imageNav-photo {
@@ -36,10 +40,10 @@
   
   .imageNav-photo.active {
     /* Visuals */
-    border: 2px solid #4aaaa5;
+    border: 2px solid #1609c8;
   }
   
-  #images {
+  images {
     /* Box-model */
     padding-top: 15px;
   
@@ -47,6 +51,6 @@
     text-align: center;
   }
 
-  #h1 {
-	color: rgb(4, 4, 97);
+  h1 {
+	color: rgb(21, 7, 98);
 }
