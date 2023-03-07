@@ -1,21 +1,25 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(250, 250, 250);
 }
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
 }
+
+.navbar .navbar-nav .nav-link.active{
+  background-color: #88f2fa;
+}
 #imageNav-area {
     width: 100%;
   
     /* Box-model */
-    padding: 20px 20px 33px;
+    padding: 20px 20px 10px;
   
     /* Positioning */
-    margin-top: 39px;
+    margin-top: 30px;
   
     /* Visual */
-    background-color: #fff;
+    background-color: rgb(250, 250, 250);
   }
   
   .imageNav-header {
@@ -26,14 +30,14 @@ body {
     /* Typography */
     font-size: 25px;
     font-weight: bold;
-    color: #1e0bf4;
+    color: #0a0259;
   }
   
   .imageNav-photo {
-    width: 140px;
+    width: 250px;
   
     /* Box-model */
-    height: 140px;
+    height: 200px;
   }
   
   .imageNav-photo:hover {
@@ -56,4 +60,16 @@ body {
 
   h1 {
 	color: rgb(21, 7, 98);
+}
+
+h2 {
+	color: rgb(21, 7, 98);
+}
+hr {
+  position: relative;
+  top: 0px;
+  border: none;
+  height: 5px;
+  background: rgb(114, 113, 113);
+  margin-bottom: 10px;
 }
